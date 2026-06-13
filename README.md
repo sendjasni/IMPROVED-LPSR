@@ -64,7 +64,7 @@ python srmodel_enhance_v0.1.py --input image.jpg --device cpu
 ```
 
 
-## 📋 Détails techniques
+## Détails techniques
 
 - **Architecture** : RRDBNet (Residual‑in‑Residual Dense Block Network) à 23 blocs, configurée pour un facteur d’échelle ×2.
 - **Entrée acceptée** : toute image couleur (BGR) de taille quelconque.
@@ -72,7 +72,7 @@ python srmodel_enhance_v0.1.py --input image.jpg --device cpu
 - **Taille mémoire** : pour des plaques d’immatriculation typiques (quelques centaines de pixels de large), le modèle utilise moins de 2 Go de mémoire GPU.
 - **Vitesse** : quelques centaines de millisecondes par image sur un GPU moderne.
 
-## ❓ FAQ
+## FAQ
 
 **Q : Puis‑je utiliser cet outil sur des images qui ne sont pas des plaques d’immatriculation ?**  
 R : Oui, le modèle fonctionne sur tout type d’image, mais il a été optimisé pour restaurer des détails fins comme du texte. Les résultats peuvent varier selon la nature de l’image.
