@@ -35,8 +35,9 @@ pip install -r requirements.txt
 
 *Les dépendances sont : `torch`, `realesrgan`, `opencv-python`, `pillow`, `tqdm`*
 
-3. **Vérifier que le fichier de poids** `weights_x2_v0.1.pth` est bien présent dans le dossier.  
-   S’il est absent, le script proposera de le télécharger automatiquement (connexion Internet requise ce jour‑là uniquement).
+3. **Télécharger et vérifier que le fichier de poids** `weights_x2_v0.1.pth` est bien présent dans le dossier.  
+Les poids du modèle sont disponibles sur **Google Drive** :  
+👉 [https://drive.google.com/drive/folders/1GGD7sh8Zv35kSuRjs9rTg2jgopA0Kcay?usp=sharing](https://drive.google.com/drive/folders/1GGD7sh8Zv35kSuRjs9rTg2jgopA0Kcay?usp=sharing). 
 
 ## Utilisation
 
