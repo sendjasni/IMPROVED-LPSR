@@ -1,0 +1,5 @@
+torch
+realesrgan
+opencv-python
+pillow
+tqdm
