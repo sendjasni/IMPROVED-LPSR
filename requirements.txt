@@ -1,5 +1,5 @@
-torch
-realesrgan
+torch>=2.1
+torchvision>=0.16
 opencv-python
+numpy
 pillow
-tqdm
